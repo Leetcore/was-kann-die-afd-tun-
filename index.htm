@@ -1,0 +1,164 @@
+<html lang="de">
+    <head>
+    <script type="text/javascript">
+        function change_result() {            
+            document.getElementById("result").textContent = document.getElementById("tag").value + " " + document.getElementById("monat").value + document.getElementById("plz").value + " " + document.getElementById("vorname").value + " " + document.getElementById("nachname").value
+        }
+    </script>
+    <style>
+        body {font-family: sans-serif; background-color:#0085c6;}
+        select {padding: 15px; font-size: 110%;}
+        form > div {float: left; padding: 10px; font-size: 90%; color: #FFF; line-height: 300%}
+        #result {font-size: 130%; color: #FFF; margin-top:100px}
+        h1 {color: #0085c6; background: #FFF; font-size: 300%}
+    </style>
+    </head>
+    <body>
+        <div style="max-width:1000px; margin:0 auto;">
+            <h1>DIE AfD hilft auch DIR!</h1>
+            <h2>Welches Problem hast du?</h2>
+            <form>
+                <div id="gebtag">
+                    Dein <b>GEBURTSTAG</b><br/>
+                    <select id="tag" onchange="change_result()">
+                        <option value="Arbeitsscheue">01</option>
+                        <option value="Dauerempörte">02</option>
+                        <option value="Drogenabhängige">03</option>
+                        <option value="Familienfeindliche">04</option>
+                        <option value="Genderwahnsinnige">05</option>
+                        <option value="Gewaltbereite">06</option>
+                        <option value="Hasserfüllte">07</option>
+                        <option value="Homosexuelle">08</option>
+                        <option value="Illegale">09</option>
+                        <option value="Inländerfeindliche">10</option>
+                        <option value="Kiffende">11</option>
+                        <option value="Kriminelle">12</option>
+                        <option value="Kryptokommunistische">13</option>
+                        <option value="Linkskatholische">14</option>
+                        <option value="Linkslinke">15</option>
+                        <option value="Manipulierte">16</option>
+                        <option value="Maoistische">17</option>
+                        <option value="Marxistische">18</option>
+                        <option value="Nordafrikanische">19</option>
+                        <option value="Nordkoreanische">20</option>
+                        <option value="Deutschlandfeindliche">21</option>
+                        <option value="Rabiate">22</option>
+                        <option value="Rotgrüne">23</option>
+                        <option value="Selbsternannte">24</option>
+                        <option value="Sogenannte">25</option>
+                        <option value="Stalinistische">26</option>
+                        <option value="Subventionierte">27</option>
+                        <option value="Tugendterroristische">28</option>
+                        <option value="Ultralinke">29</option>
+                        <option value="Unverbesserliche">30</option>
+                        <option value="Verharmlosende">21</option>
+                    </select>
+                </div>
+                
+                <div id="gebmonat">
+                    Dein <b>GEBURTSMONAT</b><br/>
+                    <select id="monat" onchange="change_result()">
+                        <option value="Berufs-">01</option>
+                        <option value="Chaos-">02</option>
+                        <option value="Halbmond-">03</option>
+                        <option value="Homo-">04</option>
+                        <option value="Kampf-">05</option>
+                        <option value="Links-">06</option>
+                        <option value="Parade-">07</option>
+                        <option value="Lügenpresse-">08</option>
+                        <option value="Schein-">09</option>
+                        <option value="Antifa-">10</option>
+                        <option value="Vorzeige-">11</option>
+                        <option value="Willkommens-">12</option>
+                    </select>
+                </div>
+                
+                <div id="inplz">
+                    Deine <b>POSTLEITZAHL</b> beginnt mit<br/>
+                    <select id="plz" onchange="change_result()">
+                        <option value="Asylanten">0</option>
+                        <option value="Ausländer">1</option>
+                        <option value="Nazi-Paranoiker">2</option>
+                        <option value="Demonstranten">3</option>
+                        <option value="Emanzen">4</option>
+                        <option value="Gutmenschen">5</option>
+                        <option value="Klatscher">6</option>
+                        <option value="Realitätsverweigerer">7</option>
+                        <option value="Schmarotzer">8</option>
+                        <option value="Staatskünzler">9</option>
+                    </select>
+                </div>
+
+                <div id="invorname">
+                    Dein <b>VORNAME</b> beginnt mit<br/>
+                    <select id="vorname" onchange="change_result()">
+                        <option value="haben mein AfD-Programm">A</option>
+                        <option value="haben mein heimattreues Herz">B</option>
+                        <option value="haben mein Kreuz an der Wand">C</option>
+                        <option value="haben meinen Mut zur Wahrheit">D</option>
+                        <option value="haben mein Frauke Petry Poster">E</option>
+                        <option value="haben meine Xavier Naidoo CD">F</option>
+                        <option value="haben meine altdeutsche Curry">G</option>
+                        <option value="haben mein Pfefferspray">H</option>
+                        <option value="haben meine Leber">I</option>
+                        <option value="haben meine Deutschland-Fahne">J</option>
+                        <option value="haben meinen Schäferhund">K</option>
+                        <option value="haben meine Staatsbürgerschaft">L</option>
+                        <option value="haben meine Urgroßmutter">M</option>
+                        <option value="haben meine Vorfahren">N</option>
+                        <option value="haben meinen Arbeitsplatz">O</option>
+                        <option value="haben meinen Facebook-Kommentar">P</option>
+                        <option value="haben meine Badehose">Q</option>
+                        <option value="haben meinen Geländewagen">R</option>
+                        <option value="haben mein Beatrix von Storch Shirt">S</option>
+                        <option value="haben meinen Sauerbraten">T</option>
+                        <option value="haben meinen Kneipenwirt">U</option>
+                        <option value="haben meinen Stimmzettel">V</option>
+                        <option value="haben meinen Taufschein">W</option>
+                        <option value="haben mich vor dem Wahllokal">X</option>
+                        <option value="haben unsere inländischen Nachbarn">Y</option>
+                        <option value="haben unseren Weihnachtsbaum">Z</option>
+                    </select>
+                </div>
+
+                <div id="innachname">
+                    Dein <b>NACHNAME</b> beginnt mit<br/>
+                    <select id="nachname" onchange="change_result()">
+                        <option value="am Drogenmarkt verkauft.">A</option>
+                        <option value="auf ausländische einen Assi genannt.">B</option>
+                        <option value="auf ein Fahrrad gesetzt.">C</option>
+                        <option value="drogenabhängig gemacht.">D</option>
+                        <option value="weggeraucht.">E</option>
+                        <option value="im Hinterhof gegrillt.">F</option>
+                        <option value="in den Dschihad geschickt.">G</option>
+                        <option value="in eine Anarcho-Kita entführt.">H</option>
+                        <option value="in eine Lesbe verwandelt.">I</option>
+                        <option value="in einen Ausländer verzaubert.">J</option>
+                        <option value="in einer Moschee versteckt.">K</option>
+                        <option value="kriminalisiert.">L</option>
+                        <option value="mit Binnen-I geschrieben.">M</option>
+                        <option value="mit Bio-Tomanten beworfen.">N</option>
+                        <option value="mit der Nazikeule bedroht.">O</option>
+                        <option value="mit veganen Haschkeksen abgefüllt.">P</option>
+                        <option value="unter ihrer Burka vergraben.">Q</option>
+                        <option value="vegan zubereitet und aufgegessen.">R</option>
+                        <option value="zwangsvegetarisiert.">S</option>
+                        <option value="zu einer Dönerbude gemacht.">T</option>
+                        <option value="zu Tode gegendert.">U</option>
+                        <option value="zum Demonstrieren genötigt.">V</option>
+                        <option value="zum Kopftuch gezwungen.">W</option>
+                        <option value="zwangshomosexualisiert.">X</option>
+                        <option value="zwangsislamisiert.">Y</option>
+                        <option value="verboten.">Z</option>
+                    </select>
+                </div>             
+            </form>
+            <p>
+                <div style="clear:both"></div>
+                <div id="result">
+                    Was kann die AfD für dich tun?
+                </div>
+            </p>   
+        </div>
+    </body>
+</html>
